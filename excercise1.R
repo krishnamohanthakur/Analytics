@@ -28,6 +28,8 @@ str(dataiitb)
 #class of data
 class(dataiitb)
 
+write.csv(mtcars, './data/mtcars.csv')
+
 #find gender mean of marks1 and marks2
 library(dplyr)
 
